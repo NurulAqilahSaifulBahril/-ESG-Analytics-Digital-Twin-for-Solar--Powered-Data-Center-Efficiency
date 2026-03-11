@@ -39,17 +39,17 @@ This project introduces a Digital Twin framework—a virtualized model of a sola
 ## ETL/ Data Pipelines
 1. Data extraction
 2. Data Transformation:
-  1. Standardize data types and formats
-    - Electricity : date, object dtype to datetime
-    - Capacity : Year, int dtype to datetime
-    - Weather : date_time, object dtype to datetime
-  2. Change column name
-    - Electricity : date to Date
-    - Capacity : Year to Date
-    - Weather : date_time to Date
-  3. Set Data range
-    - Date : 2018 - 2024
-    - City : Kulai
+   - Standardize data types and formats
+      - Electricity : date, object dtype to datetime
+      - Capacity : Year, int dtype to datetime
+      - Weather : date_time, object dtype to datetime
+   - Change column name
+      - Electricity : date to Date
+      - Capacity : Year to Date
+      - Weather : date_time to Date
+   - Set Data range
+      - Date : 2018 - 2024
+      - City : Kulai
 4. Reset index
 5. Drop column
 6. Handle missing value
