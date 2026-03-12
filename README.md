@@ -6,10 +6,10 @@ This project introduces a Digital Twin framework—a virtualized model of a sola
 - Random Forest Regressor (Scikit-Learn)
 - LSTM (PyTorch, Deep Learning)
 
-## Objectives
-- Predicts Solar Supply: Analyzes real-time weather and irradiance data (via NREL/Data.gov) to forecast energy generation.
-- Optimizes Demand Side Management: Dynamically aligns non-critical computing tasks with peak solar hours to minimize reliance on the carbon-heavy national grid.
-- Measure ESG Impact
+## Key Features
+- Solar Supply Prediction: Analyzes real-time weather and irradiance data to forecast energy generation using LSTM (PyTorch).
+- Demand Side Management: Uses a **Random Forest Regressor** to optimize non-critical computing tasks during peak solar hours.
+- ESG Impact Metrics: Calculates the reduction in Grid Reliance and Carbon Displacement.
 
 ## Scope of Study
 - Location: Kulai, Johor
